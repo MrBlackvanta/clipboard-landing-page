@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@theme {
+  --color-strong-cyan: hsl(171, 66%, 44%);
+  --color-light-blue: hsl(233, 100%, 69%);
+  --color-dark-grayish-blue: hsl(210, 10%, 33%);
+  --color-grayish-blue: hsl(201, 11%, 66%);
+
+  --font-bai-jamjuree: "Bai Jamjuree", sans-serif;
+}
+
+@layer base {
+  html {
+    @apply font-bai-jamjuree text-dark-grayish-blue;
+  }
+
+  body {
+    @apply bg-white;
+  }
+
+  a,
+  button,
+  input {
+    @apply focus-visible-ring;
+  }
+}
+
+@utility focus-visible-ring {
+  @apply focus-visible:ring-strong-cyan focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:outline-none;
+}
