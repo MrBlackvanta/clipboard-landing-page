@@ -14,13 +14,13 @@ export default function DownloadButtons({ className }: DownloadButtonsProps) {
     >
       <a
         href="#"
-        className="btn w-full bg-strong-cyan shadow-cyan hover:bg-strong-cyan-light sm:w-auto"
+        className="v-btn bg-strong-cyan shadow-cyan hover:bg-strong-cyan-light w-full sm:w-auto"
       >
         Download for iOS
       </a>
       <a
         href="#"
-        className="btn w-full bg-light-blue shadow-blue hover:bg-light-blue-light sm:w-auto"
+        className="v-btn bg-light-blue shadow-blue hover:bg-light-blue-light w-full sm:w-auto"
       >
         Download for Mac
       </a>

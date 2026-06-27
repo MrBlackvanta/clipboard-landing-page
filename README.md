@@ -9,6 +9,7 @@ This is a solution to the [Clipboard landing page challenge on Frontend Mentor](
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
+  - [Design deviations](#design-deviations)
 - [Author](#author)
 
 ## Overview
@@ -26,10 +27,26 @@ This is a solution to the [Clipboard landing page challenge on Frontend Mentor](
 
 ### Built with
 
-- [Next.js 16](https://nextjs.org/)
+- [Next.js 16](https://nextjs.org/) (App Router, React Compiler, Turbopack)
 - [React 19](https://react.dev/)
-- [TypeScript](https://www.typescriptlang.org/)
-- [Tailwind CSS v4](https://tailwindcss.com/)
+- [TypeScript](https://www.typescriptlang.org/) (strict)
+- [Tailwind CSS v4](https://tailwindcss.com/) configured entirely in CSS via `@theme` / `@utility` (no config file) — semantic color tokens and a font-size-relative `tracking-*` scale in `em`
+- `next/font` for Bai Jamjuree (self-hosted, `display: swap`, weights 400/600)
+- `next/image` with static imports — intrinsic sizing (no CLS), AVIF/WebP, responsive `srcset`
+- Inline SVG icon components driven by `currentColor`
+- Semantic HTML5 landmarks (`<header>`, `<main>`, `<section>`, `<footer>`), a single `<h1>`, no skipped heading levels
+- Mobile-first responsive layout with a single `lg:` breakpoint
+- Animations gated behind `prefers-reduced-motion`
+
+### Design deviations
+
+The Frontend Mentor color palette is implemented as specified. A few brand pairings fall below the WCAG AA contrast threshold (4.5:1 for body text); they are documented here rather than altered, since meeting AA would mean changing the brand colors:
+
+- Grayish Blue body copy on white — ~2.4:1
+- White label on the Strong Cyan button — ~2.4:1
+- White label on the Light Blue button — ~3.9:1
+
+These are properties of the supplied palette, not the markup. Headings, footer links, and the attribution all use Dark Grayish Blue (~7.7:1) and pass comfortably.
 
 ## Author
 

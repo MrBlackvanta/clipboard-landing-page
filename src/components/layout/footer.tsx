@@ -62,6 +62,28 @@ export default function Footer() {
           ))}
         </ul>
       </div>
+
+      <p className="mt-10 px-8 text-center text-sm lg:mt-8">
+        Challenge by{" "}
+        <a
+          href="https://www.frontendmentor.io?ref=challenge"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="footer-link"
+        >
+          Frontend Mentor
+        </a>
+        . Coded by{" "}
+        <a
+          href="https://www.linkedin.com/in/abdelrhman-vanta/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="footer-link"
+        >
+          Abdelrhman Abdelaal
+        </a>
+        .
+      </p>
     </footer>
   );
 }

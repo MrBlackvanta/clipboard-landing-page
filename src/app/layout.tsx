@@ -11,9 +11,24 @@ const baiJamjuree = Bai_Jamjuree({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://vanta-clipboard-landing-page.netlify.app"),
   title: "Clipboard landing page",
   description:
-    "Frontend Mentor Clipboard landing page challenge built with Next.js and TypeScript.",
+    "Track and organize everything you copy. Instantly access your clipboard on all your devices.",
+  openGraph: {
+    title: "Clipboard landing page",
+    description:
+      "Track and organize everything you copy. Instantly access your clipboard on all your devices.",
+    url: "/",
+    siteName: "Clipboard",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Clipboard landing page",
+    description:
+      "Track and organize everything you copy. Instantly access your clipboard on all your devices.",
+  },
 };
 
 export const viewport: Viewport = {
