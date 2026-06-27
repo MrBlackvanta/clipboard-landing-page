@@ -45,7 +45,10 @@ export default function SnippetsSection() {
             className="mx-auto w-full max-w-150 lg:mx-0 lg:w-188 lg:max-w-none lg:justify-self-end"
           />
 
-          <ul className="grid gap-12 text-center lg:max-w-sm lg:gap-14 lg:text-left">
+          <ul
+            role="list"
+            className="grid gap-12 text-center lg:max-w-sm lg:gap-14 lg:text-left"
+          >
             {features.map((feature) => (
               <li key={feature.title}>
                 <h3 className="tracking-heading text-2xl font-semibold">

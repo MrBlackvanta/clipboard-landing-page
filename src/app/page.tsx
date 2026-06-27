@@ -4,6 +4,7 @@ import AccessSection from "@/components/access-section";
 import DownloadButtons from "@/components/download-buttons";
 import { LogoIcon } from "@/components/icons";
 import SnippetsSection from "@/components/snippets-section";
+import WorkflowSection from "@/components/workflow-section";
 import Image from "next/image";
 
 export default function Page() {
@@ -42,6 +43,7 @@ export default function Page() {
       <main className="flex-1">
         <SnippetsSection />
         <AccessSection />
+        <WorkflowSection />
       </main>
     </>
   );
