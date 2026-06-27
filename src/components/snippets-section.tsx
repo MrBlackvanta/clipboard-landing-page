@@ -30,7 +30,7 @@ export default function SnippetsSection() {
       aria-labelledby="snippets-heading"
       className="pb-46.5 lg:overflow-x-clip lg:pb-37.5"
     >
-      <div className="mx-auto max-w-280 px-8">
+      <div className="mx-auto max-w-277.5 px-8 lg:px-0">
         <SectionIntro
           id="snippets-heading"
           title="Keep track of your snippets"

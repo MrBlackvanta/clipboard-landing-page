@@ -31,7 +31,7 @@ const tools: Tool[] = [
 
 export default function WorkflowSection() {
   return (
-    <section aria-labelledby="workflow-heading" className="pb-28 lg:pb-36">
+    <section aria-labelledby="workflow-heading" className="pb-32.75 lg:pb-37.5">
       <div className="mx-auto max-w-277.5 px-8 lg:px-0">
         <SectionIntro
           id="workflow-heading"

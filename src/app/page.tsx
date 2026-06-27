@@ -1,8 +1,10 @@
 import bgHeaderDesktop from "@/assets/images/bg-header-desktop.png";
 import bgHeaderMobile from "@/assets/images/bg-header-mobile.png";
 import AccessSection from "@/components/access-section";
+import CtaSection from "@/components/cta-section";
 import DownloadButtons from "@/components/download-buttons";
 import { LogoIcon } from "@/components/icons";
+import LogosSection from "@/components/logos-section";
 import SnippetsSection from "@/components/snippets-section";
 import WorkflowSection from "@/components/workflow-section";
 import Image from "next/image";
@@ -44,6 +46,8 @@ export default function Page() {
         <SnippetsSection />
         <AccessSection />
         <WorkflowSection />
+        <LogosSection />
+        <CtaSection />
       </main>
     </>
   );
