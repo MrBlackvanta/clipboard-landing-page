@@ -21,7 +21,7 @@ const socialLinks = [
 
 export default function Footer() {
   return (
-    <footer className="bg-grayish-blue/10 py-12 lg:py-14">
+    <footer className="bg-grayish-blue/10 pt-12 lg:pt-14">
       <div className="mx-auto flex max-w-277.5 flex-col items-center gap-12 px-8 lg:flex-row lg:justify-between lg:gap-0 lg:px-0">
         <div className="flex flex-col items-center gap-y-10 lg:flex-row lg:items-start lg:gap-x-24">
           <LogoIcon
@@ -63,13 +63,13 @@ export default function Footer() {
         </ul>
       </div>
 
-      <p className="mt-10 px-8 text-center text-sm lg:mt-8">
+      <p className="mt-10 px-8 pb-0.5 text-center text-sm lg:mt-8">
         Challenge by{" "}
         <a
           href="https://www.frontendmentor.io?ref=challenge"
           target="_blank"
           rel="noopener noreferrer"
-          className="footer-link"
+          className="v-footer-link"
         >
           Frontend Mentor
         </a>
@@ -78,7 +78,7 @@ export default function Footer() {
           href="https://www.linkedin.com/in/abdelrhman-vanta/"
           target="_blank"
           rel="noopener noreferrer"
-          className="footer-link"
+          className="v-footer-link"
         >
           Abdelrhman Abdelaal
         </a>

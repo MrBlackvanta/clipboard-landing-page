@@ -47,7 +47,7 @@
   @apply motion-safe:transition-[background-color,box-shadow] motion-safe:duration-200 motion-safe:ease-out;
 }
 
-@utility footer-link {
+@utility v-footer-link {
   @apply font-semibold underline underline-offset-2;
   @apply hover:text-strong-cyan motion-safe:transition-colors motion-safe:duration-200;
 }
