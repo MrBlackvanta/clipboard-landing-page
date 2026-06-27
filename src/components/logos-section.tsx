@@ -1,8 +1,8 @@
-import logoGoogle from "@/assets/images/logo-google.png";
-import logoHp from "@/assets/images/logo-hp.png";
-import logoIbm from "@/assets/images/logo-ibm.png";
-import logoMicrosoft from "@/assets/images/logo-microsoft.png";
-import logoVectorGraphics from "@/assets/images/logo-vector-graphics.png";
+import logoGoogle from "@/assets/images/logo-google.webp";
+import logoHp from "@/assets/images/logo-hp.webp";
+import logoIbm from "@/assets/images/logo-ibm.webp";
+import logoMicrosoft from "@/assets/images/logo-microsoft.webp";
+import logoVectorGraphics from "@/assets/images/logo-vector-graphics.webp";
 import Image, { type StaticImageData } from "next/image";
 
 type Logo = {

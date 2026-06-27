@@ -1,4 +1,4 @@
-import imageComputer from "@/assets/images/image-computer.png";
+import imageComputer from "@/assets/images/image-computer.webp";
 import SectionIntro from "@/components/section-intro";
 import Image from "next/image";
 

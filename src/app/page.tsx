@@ -1,5 +1,5 @@
-import bgHeaderDesktop from "@/assets/images/bg-header-desktop.png";
-import bgHeaderMobile from "@/assets/images/bg-header-mobile.png";
+import bgHeaderDesktop from "@/assets/images/bg-header-desktop.webp";
+import bgHeaderMobile from "@/assets/images/bg-header-mobile.webp";
 import AccessSection from "@/components/access-section";
 import CtaSection from "@/components/cta-section";
 import DownloadButtons from "@/components/download-buttons";
@@ -32,10 +32,10 @@ export default function Page() {
             aria-label="Clipboard"
             className="text-strong-cyan size-31.25"
           />
-          <h1 className="mt-18.5 text-[2rem] leading-none font-semibold tracking-heading sm:mt-14 sm:text-[2.87rem]">
+          <h1 className="tracking-heading mt-18.5 text-[2rem] leading-none font-semibold sm:mt-14 sm:text-[2.87rem]">
             A history of everything you copy
           </h1>
-          <p className="text-grayish-blue mt-4 text-base leading-6.5 tracking-body sm:max-w-182.5 sm:text-xl sm:leading-7.5">
+          <p className="text-grayish-blue tracking-body mt-4 text-base leading-6.5 sm:max-w-182.5 sm:text-xl sm:leading-7.5">
             Clipboard allows you to track and organize everything you copy.
             Instantly access your clipboard on all your devices.
           </p>
