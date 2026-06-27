@@ -33,11 +33,11 @@
   a,
   button,
   input {
-    @apply focus-visible-ring;
+    @apply v-focus-visible-ring;
   }
 }
 
-@utility focus-visible-ring {
+@utility v-focus-visible-ring {
   @apply focus-visible:ring-strong-cyan focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:outline-none;
 }
 
