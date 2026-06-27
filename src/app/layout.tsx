@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Bai_Jamjuree } from "next/font/google";
+import Footer from "@/components/layout/footer";
 import "./globals.css";
 
 const baiJamjuree = Bai_Jamjuree({
@@ -28,7 +29,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${baiJamjuree.variable} antialiased`}>
-      <body className="flex min-h-dvh flex-col">{children}</body>
+      <body className="flex min-h-dvh flex-col">
+        {children}
+        <Footer />
+      </body>
     </html>
   );
 }
