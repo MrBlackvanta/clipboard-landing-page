@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function AccessSection() {
   return (
-    <section aria-labelledby="access-heading" className="pb-46.5 lg:pb-37.5">
+    <section aria-labelledby="access-heading" className="pb-32.75 lg:pb-40.25">
       <div className="mx-auto max-w-280 px-8">
         <SectionIntro
           id="access-heading"
