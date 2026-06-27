@@ -2,6 +2,7 @@ import bgHeaderDesktop from "@/assets/images/bg-header-desktop.png";
 import bgHeaderMobile from "@/assets/images/bg-header-mobile.png";
 import DownloadButtons from "@/components/download-buttons";
 import { LogoIcon } from "@/components/icons";
+import SnippetsSection from "@/components/snippets-section";
 import Image from "next/image";
 
 export default function Page() {
@@ -37,7 +38,9 @@ export default function Page() {
           <DownloadButtons className="mt-12" />
         </div>
       </header>
-      <main className="flex-1" />
+      <main className="flex-1">
+        <SnippetsSection />
+      </main>
     </>
   );
 }
