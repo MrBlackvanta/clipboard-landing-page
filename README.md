@@ -21,7 +21,8 @@ This is a solution to the [Clipboard landing page challenge on Frontend Mentor](
 ### Links
 
 - Solution URL: [GitHub](https://github.com/MrBlackvanta/clipboard-landing-page)
-- Live Site URL: [Netlify](https://vanta-clipboard-landing-page.netlify.app)
+- Live Site URL: [Cloudflare](https://clipboard-landing-page.abdelrhman-ahmed8881.workers.dev)
+- Mirror: [Netlify](https://vanta-clipboard-landing-page.netlify.app)
 
 ## My process
 

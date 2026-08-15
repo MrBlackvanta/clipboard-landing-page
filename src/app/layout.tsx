@@ -11,7 +11,7 @@ const baiJamjuree = Bai_Jamjuree({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://vanta-clipboard-landing-page.netlify.app"),
+  metadataBase: new URL("https://clipboard-landing-page.abdelrhman-ahmed8881.workers.dev"),
   title: "Clipboard landing page",
   description:
     "Track and organize everything you copy. Instantly access your clipboard on all your devices.",
