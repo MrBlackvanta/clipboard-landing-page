@@ -10,24 +10,40 @@ const baiJamjuree = Bai_Jamjuree({
   display: "swap",
 });
 
+const SITE_URL =
+  "https://clipboard-landing-page.abdelrhman-ahmed8881.workers.dev";
+
+const name = "Clipboard";
+const title = `${name} | Copy history for Mac and iOS`;
+const description =
+  "Track and organize everything you copy. Instantly access your clipboard on all your devices.";
+
+const shareImage = {
+  url: "/opengraph-image.jpg",
+  width: 1200,
+  height: 630,
+  alt: "Clipboard, copy history for Mac and iOS, on a tablet and a phone.",
+};
+
 export const metadata: Metadata = {
-  metadataBase: new URL("https://clipboard-landing-page.abdelrhman-ahmed8881.workers.dev"),
-  title: "Clipboard landing page",
-  description:
-    "Track and organize everything you copy. Instantly access your clipboard on all your devices.",
+  metadataBase: new URL(SITE_URL),
+  title,
+  description,
+  alternates: { canonical: "/" },
   openGraph: {
-    title: "Clipboard landing page",
-    description:
-      "Track and organize everything you copy. Instantly access your clipboard on all your devices.",
+    title,
+    description,
     url: "/",
-    siteName: "Clipboard",
+    siteName: name,
+    locale: "en_US",
     type: "website",
+    images: [shareImage],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Clipboard landing page",
-    description:
-      "Track and organize everything you copy. Instantly access your clipboard on all your devices.",
+    title,
+    description,
+    images: [shareImage],
   },
 };
 
