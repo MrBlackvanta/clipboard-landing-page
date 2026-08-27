@@ -16,13 +16,12 @@ This is a solution to the [Clipboard landing page challenge on Frontend Mentor](
 
 ### Screenshot
 
-![](./screenshot.png)
+![](./screenshot.webp)
 
 ### Links
 
 - Solution URL: [GitHub](https://github.com/MrBlackvanta/clipboard-landing-page)
 - Live Site URL: [Cloudflare](https://clipboard-landing-page.abdelrhman-ahmed8881.workers.dev)
-- Mirror: [Netlify](https://vanta-clipboard-landing-page.netlify.app)
 
 ## My process
 
@@ -51,6 +50,6 @@ These are properties of the supplied palette, not the markup. Headings, footer l
 
 ## Author
 
-- UpWork - [Abdelrhman Abdelaal](https://upwork.com/freelancers/~01f0a9479696b61f49)
+- UpWork - [Abdelrhman Abdelaal](https://www.upwork.com/freelancers/mrblackvanta)
 - Frontend Mentor - [@MrBlackvanta](https://www.frontendmentor.io/profile/MrBlackvanta)
 - LinkedIn - [Abdelrhman Abdelaal](https://www.linkedin.com/in/abdelrhman-vanta/)
