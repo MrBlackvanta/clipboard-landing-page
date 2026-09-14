@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { Bai_Jamjuree } from "next/font/google";
 import Footer from "@/components/layout/footer";
+import { SITE_URL } from "@/app/site";
 import "./globals.css";
 
 const baiJamjuree = Bai_Jamjuree({
@@ -9,9 +10,6 @@ const baiJamjuree = Bai_Jamjuree({
   subsets: ["latin"],
   display: "swap",
 });
-
-const SITE_URL =
-  "https://clipboard-landing-page.abdelrhman-ahmed8881.workers.dev";
 
 const name = "Clipboard";
 const title = `${name} | Copy history for Mac and iOS`;
